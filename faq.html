@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="shortcut icon" href="assets/Images/fave_icon.png" type="image/x-icon">
+    <!-- Framework Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+    <!-- Font Awesome / Icon Fonts -->
+    <link rel="stylesheet" href="assets/font-awesome-lib/icon/font-awesome.min.css">
+    <!-- Style Theme -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Theme -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+</head>
+
+<body>
+    <!-- site-wrapper -->
+    <div class="site-wrapper">
+
+        <div class="header_faq">
+            <!-- ======== 1.1. Header section ========  -->
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <!-- site logo -->
+                        <a class="navbar-brand p-0" href="index.html"><img src="assets/Images/logo.png" alt="0bug"  height="100"></a>
+                        <button class="navbar-toggler" onclick="openNav()" type="button">
+                  <span class="fa-solid fa-bars"></span>
+                  </button>
+                        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                            <!-- menus -->
+                            <ul class="navbar-nav d-flex gap-5 align-items-center">
+                                <li class="nav-item"><a class="nav-link p-0" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link p-0" href="About.html">About us</a></li>
+                                <li class="nav-item"><a class="nav-link p-0" href="Service.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-link p-0" href="Contact.html">Contact</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link mx-2 dropdown-toggle p-0 active" href="faq.html#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           More
+                           </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item active" href="faq.html">FAQ</a></li>
+                                        <li><a class="dropdown-item" href="Testimonial.html">Testimonial</a></li>
+                                        <li><a class="dropdown-item" href="https://blog.0bug.io">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- header buttons -->
+                                    <a class="nav-link btn_hover" href="Contact.html">Get started</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Sidebar -->
+                <aside id="mySidepanel" class="sidepanel">
+                    <div class="sidebar">
+                        <a class="navbar-brand p-0" href="index.html"><img src="assets/Images/logo.png" alt="0bug"  height="100"></a>
+                        <button class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div>
+                        <!-- side menus -->
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="About.html">About us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Service.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                            <li class="pages"><a href="faq.html#" class="active">More</a></li>
+                            <li class="collapse_btn nav-item">
+                                <a class="nav-link plus_collapse active" data-bs-toggle="collapse" href="faq.html#pages" role="button" aria-expanded="false" aria-controls="pages">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                                <div class="collapse" id="pages">
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="Testimonial.html">Testimonial</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="https://blog.0bug.io">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </header>
+            <!-- ======== End of 1.1. Header section ========  -->
+
+            <!-- ======== 7.1. hero section ========  -->
+            <section class="banner_faq d-flex align-items-center gap-2 flex-column">
+                <h2>FAQ</h2>
+                <h5>Home / FAQ</h5>
+            </section>
+            <!-- ======== 7.1. hero section ======== -->
+        </div>
+
+        <!-- ======== 3.2. FAQ section ========  -->
+       <section class="page-faq">
+    <div class="container">
+        <div class="row faq">
+            <div class="col-lg-6 col-md-6 d-flex pe-md-5 pe-sm-0 pe-0 flex-column justify-content-center gap-3 text-md-start text-sm-center text-center position-relative">
+                <figure><img src="assets/Images/bg/about_cercle1.png" alt="img"></figure>
+                <h5>FAQ</h5>
+                <h2>Still want to know more?</h2>
+                <p>Read the FAQ and if you still have any questions Please <a href="contact.html">Contact Us</a></p>
+            </div>
+            <div class="col-lg-6 col-md-6 mt-md-0 mt-sm-4 mt-4">
+                <div class="accordion" id="accordionExample">
+
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What Are Cybersecurity Services?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Cybersecurity services encompass a range of measures designed to protect digital systems, networks, devices, and data from cyber threats. These services include strategies, technologies, and practices that help identify vulnerabilities, prevent attacks, and respond to security incidents.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Why Do I Need Cybersecurity Services?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                As cyber threats continue to evolve, businesses and individuals are at risk of data breaches, ransomware attacks, and more. Cybersecurity services help safeguard sensitive information, maintain operational continuity, and ensure compliance with industry regulations.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What Types of Services Are Included?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Cybersecurity services vary but commonly include network security, data encryption, vulnerability assessments, penetration testing, incident response, cloud security, employee training, and compliance support. These services are tailored to address different aspects of digital security.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How Can Cybersecurity Services Benefit My Business?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Cybersecurity services provide several benefits, such as reducing the risk of data breaches, enhancing customer trust, avoiding financial losses due to cyber incidents, ensuring regulatory compliance, and maintaining a resilient online presence.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Are Cybersecurity Services Only for Large Businesses?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, cybersecurity services are essential for businesses of all sizes. Small businesses are often targets of cyberattacks due to perceived vulnerabilities. Tailored services can help protect your digital assets, regardless of your organization's size.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                How Can I Choose the Right Cybersecurity Service Provider?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                When selecting a cybersecurity service provider, consider their expertise, experience, range of services, industry reputation, and client testimonials. Look for providers who offer customized solutions that align with your specific security needs.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Can Cybersecurity Services Prevent All Attacks?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                While cybersecurity services significantly reduce the risk of attacks, no system is completely immune. Cybersecurity services aim to minimize vulnerabilities, detect threats early, and respond effectively to mitigate the impact of attacks.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                How Often Should I Update My Cybersecurity Measures?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Regular updates and assessments are crucial to stay ahead of evolving cyber threats. Frequent updates to software, security patches, employee training, and proactive security audits are recommended to maintain robust cybersecurity.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 9 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                What Should I Do If I Suspect a Security Breach?
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                If you suspect a security breach, act quickly. Notify your IT team or cybersecurity service provider, isolate affected systems, and follow your incident response plan. Timely response can help contain the damage and mitigate potential risks.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 10 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                How Can I Get Started with Cybersecurity Services?
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Getting started is as simple as reaching out to a reputable cybersecurity service provider. They can assess your current security posture, understand your specific needs, and tailor a comprehensive cybersecurity strategy for your business.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add the rest of your FAQ items here -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- ======== End of 3.2. FAQ section ========  -->
+        <!-- ======== 1.13. Footer section ======== -->
+        <footer>
+            <figure><img src="assets/Images/bg/footer_bg.png" alt="img" class="footer-cercle2"></figure>
+            <div class="container position-relative ab-footer">
+                <div class="text-center d-flex flex-column gap-2">
+                    <h5>Get in touch</h5>
+                    <h2>Subscribe our newsletter</h2>
+                    <p class="footer-para">Stay informed about the latest updates and don't miss out on our exclusive special offers that bring cutting-edge solutions within reach.</p>
+                    <form class="d-flex justify-content-center gap-4 mt-4" id="footer-form">
+                        <div id="footer-message"> </div>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="row text-md-start text-sm-center text-center">
+                    <div class="col-lg-5 col-md-5">
+                        <a href="index.html" class="p-0">
+                            <figure><img src="assets/Images/logo.png" alt="logo"></figure>
+                        </a>
+                        <p class="pb-3 pe-md-5 pe-sm-0 pe-0">We're your dedicated protectors against digital threats. Our expert team shields your assets with cutting-edge technology and robust cybersecurity solutions.</p>
+                        <!-- social icons -->
+                        <span class="d-flex gap-3 flex-wrap justify-content-md-start justify-content-sm-center justify-content-center">
+                            <a href="https://twitter.com/0Bugltd"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/0bugltd"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com/0bugltd"><i class="fab fa-github"></i></a>
+                            <a href="https://youtube.com/@0bugltd/"><i class="fab fa-youtube"></i></a>
+                            <a href="Contact.html#"><i class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="https://www.facebook.com/0bugltd"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="Contact.html#"><i class="fa-brands fa-instagram"></i></a>
+                       </span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 position-relative mt-md-0 mt-sm-4 mt-4">
+                        <h4>Useful links</h4>
+                        <div class="d-flex gap-md-5 gap-sm-5 gap-5 mt-4 justify-content-md-start justify-content-sm-center justify-content-center">
+                            <div class="d-flex flex-column gap-4">
+                                <a href="index.html" class="p-0">Home</a>
+                                <a href="About.html" class="p-0">About</a>
+                                <a href="Service.html" class="p-0">Services</a>
+                            </div>
+                            <div class="d-flex flex-column gap-4">
+                                <a href="Contact.html" class="p-0">Contact</a>
+                                <a href="https://blog.0bug.io" class="p-0">Blog</a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-4 col-md-4 ps-4 mt-md-0 mt-sm-4 mt-4 d-flex flex-column align-items-md-start align-items-sm-center align-items-start">
+                        <h4>Our Office</h4>
+                        <div class="d-flex align-items-center gap-4 mt-4">
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                            <p class="p-0">Aman Tower, Abutroab, Mirshari, Chittagong</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-4 mt-4">
+                            <i class="fa-sharp fa-solid fa-phone"></i>
+                            <p class="p-0">+8809697294214</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-4 mt-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="p-0">contact@0bug.io</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-5">
+                <!-- copyright text -->
+                <div class="copyright">
+                    <h6 class="copyright">Copyright © 2023 0bug Cyber Security Ltd. all rights reserved.</h6>
+                </div>
+                <figure><img src="assets/Images/bg/about_cercle1.png" alt="img" class="footer-cercle1"></figure>
+            </div>
+        </footer>
+        <!-- ======== End of 1.13. Footer section ======== -->
+    </div>
+    <!-- end site wrapper -->
+
+    <!-- button back to top -->
+    <button onclick="scrollToTop()" id="backToTopBtn" class="btn_hover2"><i class="fa-solid fa-arrow-turn-up"></i></button>
+
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- counter -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Framework javascript -->
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- style javascript -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

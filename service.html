@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="shortcut icon" href="assets/Images/fave_icon.png" type="image/x-icon">
+    <!-- Framework Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+    <!-- Font Awesome / Icon Fonts -->
+    <link rel="stylesheet" href="assets/font-awesome-lib/icon/font-awesome.min.css">
+    <!-- Style Theme -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Theme -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+</head>
+
+<body>
+    <!-- site-wrapper -->
+    <div class="site-wrapper">
+
+        <div class="header_service">
+            <!-- ======== 1.1. Header section ========  -->
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <!-- site logo -->
+                        <a class="navbar-brand p-0" href="index.html"><img src="assets/Images/logo.png" alt="0bug"  height="100"></a>
+                        <button class="navbar-toggler" onclick="openNav()" type="button">
+                  <span class="fa-solid fa-bars"></span>
+                  </button>
+                        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                            <!-- menus -->
+                            <ul class="navbar-nav d-flex gap-5 align-items-center">
+                                <li class="nav-item"><a class="nav-link p-0" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link p-0" href="About.html">About us</a></li>
+                                <li class="nav-item"><a class="nav-link p-0 active" href="Service.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-link p-0" href="Contact.html">Contact</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link mx-2 dropdown-toggle p-0" href="Service.html#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           More
+                           </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                        <li><a class="dropdown-item" href="Testimonial.html">Testimonial</a></li>
+                                        <li><a class="dropdown-item" href="https://blog.0bug.io">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- header buttons -->
+                                    <a class="nav-link btn_hover" href="Contact.html">Get started</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Sidebar -->
+                <aside id="mySidepanel" class="sidepanel">
+                    <div class="sidebar">
+                        <a class="navbar-brand p-0" href="index.html"><img src="assets/Images/logo.png" alt="0bug"  height="100"></a>
+                        <button class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div>
+                        <!-- side menus -->
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="About.html">About us</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="Service.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                            <li class="pages"><a href="Service.html#">More</a></li>
+                            <li class="collapse_btn nav-item">
+                                <a class="nav-link plus_collapse" data-bs-toggle="collapse" href="Service.html#pages" role="button" aria-expanded="false" aria-controls="pages">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                                <div class="collapse" id="pages">
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonial</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="https://blog.0bug.io">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </header>
+            <!-- ======== End of 1.1. Header section ========  -->
+
+            <!-- ======== 3.1. hero section ========  -->
+            <section class="banner_service d-flex align-items-center gap-2 flex-column">
+                <h2>Services</h2>
+                <h5>Home / services</h5>
+            </section>
+            <!-- ======== End of 3.1. hero section ========  -->
+        </div>
+        <!-- ======== 1.7.  Our Services section ======== -->
+        <section class="services">
+            <div class="container text-center">
+                <h5>Our services</h5>
+                <h2>Make your digital space bugless with 0bug</h2>
+                <b><i>0bug Cyber Security Ltd, a contemporary leader in Information Security, integrates an array of advanced services and state-of-the-art technical capabilities to offer your business the precise level of solution support it demands.</i></b>
+                <div class="d-flex justify-content-between align-items-center flex-md-row flex-sm-column flex-column gap-lg-5 gap-md-4 gap-sm-5 gap-4 mt-md-5 mt-sm-5 mt-4">
+                    <div class="service_card d-flex flex-column align-items-center text-center">
+                        <figure><img src="assets/Images/icon/service1.png" alt="service"></figure>
+                        <h4>Vulnerability Assessment</h4>
+                        <p id="intro-paragraph-1"></p>
+                        <p id="hidden-paragraph-1" style="display: none;">We conduct a thorough examination of your systems and applications to find weaknesses or vulnerabilities that could be exploited by cyber threats. Our goal is to help you prioritize and address these vulnerabilities to enhance your overall security posture.</p>
+                        <p class="read-more" data-target="1">Read More</p>
+                        <a href="contact.html" class="btn_hover2"><i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                    <div class="service_card d-flex flex-column align-items-center text-center">
+                        <figure><img src="assets/Images/icon/service2.png" alt="service"></figure>
+                        <h4>Application Penetration Testing</h4>
+                        <p id="intro-paragraph-2"></p>
+                        <p id="hidden-paragraph-2" style="display: none;">Our experts simulate real-world attacks on your applications to uncover potential security flaws before malicious hackers do. This proactive approach allows us to strengthen your application's defenses and protect sensitive data.</p>
+                        <p class="read-more" data-target="2">Read More</p>
+                        <a href="contact.html" class="btn_hover2"><i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                    <div class="service_card d-flex flex-column align-items-center text-center">
+                        <figure><img src="assets/Images/icon/service3.png" alt="service"></figure>
+                        <h4>Network Penetration Testing</h4>
+                        <p id="intro-paragraph-3"></p>
+                        <p id="hidden-paragraph-3" style="display: none;">We assess the security of your network infrastructure by attempting to breach it, just like a cyber attacker would. This process helps us identify vulnerabilities and vulnerabilities in your network and implement effective safeguards.</p>
+                        <p class="read-more" data-target="3">Read More</p>
+                        <a href="contact.html" class="btn_hover2"><i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center flex-md-row flex-sm-column flex-column gap-lg-5 gap-md-4 gap-sm-5 gap-4 mt-md-5 mt-sm-5 mt-4">
+                    <div class="service_card d-flex flex-column align-items-center text-center">
+                        <figure><img src="assets/Images/icon/service4.png" alt="service"></figure>
+                        <h4>Source Code Audit</h4>
+                        <p id="intro-paragraph-4"></p>
+                        <p id="hidden-paragraph-4" style="display: none;">Reviews the source code of your software applications to identify security weaknesses during the development phase. By addressing these issues early, we ensure that your software is built with security in mind from the ground up.</p>
+                        <p class="read-more" data-target="4">Read More</p>
+                        <a href="contact.html" class="btn_hover2"><i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                    <div class="service_card d-flex flex-column align-items-center text-center">
+                        <figure><img src="assets/Images/icon/service5.png" alt="service"></figure>
+                        <h4>Red Team Assessments</h4>
+                        <p id="intro-paragraph-5"></p>
+                        <p id="intro-paragraph-5" style="display: none;">Our Red Team conducts simulated cyberattacks to assess your organization's security preparedness. By emulating real-world threats, we help you strengthen your defenses.</p>
+                        <p class="read-more" data-target="5">Read More</p>
+                        <a href="contact.html" class="btn_hover2"><i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                    <div class="service_card d-flex flex-column align-items-center text-center">
+                        <figure><img src="assets/Images/icon/service6.png" alt="service"></figure>
+                        <h4>Cloud Security</h4>
+                        <p id="intro-paragraph-6"></p>
+                        <p id="hidden-paragraph-6" style="display: none;">Our cloud security solutions ensure that your sensitive information remains protected while benefiting from the flexibility and scalability of cloud technology."</p>
+                        <p class="read-more" data-target="6">Read More</p>
+                        <a href="contact.html" class="btn_hover2"><i class="fa-solid fa-greater-than"></i></a>
+                    </div>
+                </div>
+                <figure><img src="assets/Images/bg/about_cercle1.png" alt="img" class="service-cercle1"></figure>
+                <figure><img src="assets/Images/bg/about_cercle1.png" alt="img" class="service-cercle2"></figure>
+                <figure><img src="assets/Images/bg/about_cercle1.png" alt="img" class="service-cercle3"></figure>
+            </div>
+        </section>
+        <!-- ======== End of 1.7.  Our Services section ======== -->
+
+        <!-- ======== 1.6. Why Choose Us section ======== -->
+        <section class="choose">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6 d-flex flex-column align-items-md-start align-items-sm-center align-items-center text-md-start text-sm-center text-center gap-3">
+                        <h5>Why choose us</h5>
+                        <h2>Trusted protection for your Company begins here</h2>
+                        <p class="pe-lg-5 pe-md-4 pe-sm-0 pe-0">
+                            At 0bug, we understand that the digital world is constantly evolving, and so are the threats that come with it. As a leading cybersecurity company, we are committed to providing top-notch cybersecurity solutions that protect your business, your data, and your reputation.
+                        </p>
+                        <!-- button -->
+                        <a href="About.html" class="btn_hover mt-4">Learn more</a>
+
+                        <figure><img src="assets/Images/home/choose_main.png" class="mx-auto d-block w-100 mt-md-0 mt-sm-3 mt-3" alt="image"></figure>
+                        <figure><img src="assets/Images/bg/header_cercle1.png" alt="img" class="chose-cercle1"></figure>
+                    </div>
+                    <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                        <figure><img src="assets/Images/bg/header_cercle2.png" alt="img" class="chose-cercle2"></figure>
+                        <div class="choose2 d-flex flex-column gap-md-5 gap-sm-5 gap-4 mt-md-0 mt-sm-4 mt-4">
+                            <div class="d-flex gap-4 flex-md-row flex-sm-column flex-column text-md-start text-sm-center text-center">
+                                <figure><img src="assets/Images/icon/choose1.png" alt="image"></figure>
+                                <div class="d-flex flex-column gap-3">
+                                    <h3>Expertise You Can Trust</h3>
+                                    <p>
+                                        With years of experience in the field, our team of cybersecurity experts brings a wealth of knowledge to the table. We have successfully safeguarded organizations of all sizes, from startups to enterprises, across various industries. Our seasoned professionals stay ahead of the curve, keeping up with the latest cybersecurity trends and threats to ensure your protection.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 flex-md-row flex-sm-column flex-column text-md-start text-sm-center text-center">
+                                <figure><img src="assets/Images/icon/choose2.png" alt="image"></figure>
+                                <div class="d-flex flex-column gap-3">
+                                    <h3>Cutting-Edge Technology</h3>
+                                    <p>
+                                        Cyber threats are becoming increasingly sophisticated, and we stay on the cutting edge of technology to combat them. Our solutions leverage the latest advancements in cybersecurity, including AI-driven threat detection, real-time monitoring, and encryption protocols. We continuously invest in research and development to stay at the forefront of the industry.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 flex-md-row flex-sm-column flex-column text-md-start text-sm-center text-center">
+                                <figure><img src="assets/Images/icon/choose3.png" alt="image"></figure>
+                                <div class="d-flex flex-column gap-3">
+                                    <h3>Trusted</h3>
+                                    <p>Trust is the foundation of our client relationships. We are dedicated to earning and maintaining your trust by providing unmatched cybersecurity services that safeguard your digital assets and enable your organization to thrive in a secure digital world. Your security is our priority, and we are your trusted cybersecurity partner.                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== End of 1.6. Why Choose Us section ======== -->
+
+        <!-- ======== 1.11. Testimonials section ======== -->
+        <section>
+            <div class="container">
+                <div class="testimonial text-center">
+                    <h5>Testimonials</h5>
+                    <h2>You choose, we protect</h2>
+                    <p>See What Our Partners Says About Us</p>
+                </div>
+                <div class="slider">
+                    <div class="d-flex justify-content-between align-items-center gap-lg-5 gap-md-4 gap-sm-5 gap-4 mt-5 flex-md-row flex-sm-column flex-column">
+                        <div class="testimonial_card d-flex gap-lg-5 gap-md-3 gap-sm-5 gap-2 align-items-center flex-md-row flex-sm-row flex-column text-md-start text-sm-start text-center">
+                            <figure><img src="assets/Images/slider/testimonial1.png" alt="testimonial"></figure>
+                            <div>
+                                <p>Their team's in-depth knowledge of the evolving threat landscape has protected us from potential disasters. Their expertise and commitment to our security have made them an indispensable part of our organization.</p>
+                                <hr>
+                                <h4>john Lee</h4>
+                            </div>
+                        </div>
+                        <div class="testimonial_card d-flex gap-lg-5 gap-md-3 gap-sm-5 gap-2 align-items-center flex-md-row flex-sm-row flex-column text-md-start text-sm-start text-center">
+                            <figure><img src="assets/Images/slider/testimonial2.png" alt="testimonial"></figure>
+                            <div>
+                                <p>They've not only shielded us from threats but also enhanced our reputation, increasing customer loyalty.I highly recommend 0bug to e-commerce CEOs seeking top-notch cybersecurity partners. Their expertise has become invaluable to our growth story.                                </p>
+                                <hr>
+                                <h4>Rafid Ahsan</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center gap-lg-5 gap-md-4 gap-sm-5 gap-4 mt-5 flex-md-row flex-sm-column flex-column">
+                        <div class="testimonial_card d-flex gap-lg-5 gap-md-3 gap-sm-5 gap-2 align-items-center flex-md-row flex-sm-row flex-column text-md-start text-sm-start text-center">
+                            <figure><img src="assets/Images/slider/testimonial3.png" alt="testimonial"></figure>
+                            <div>
+                                <p>In a world where cyber threats are ever-present, 0bug is a beacon of security. Their proactive monitoring and continuous education have ensured that our organization stays one step ahead of potential attackers. We couldn't be happier with their services.</p>
+                                <hr>
+                                <h4>Jacob scott</h4>
+                            </div>
+                        </div>
+                        <div class="testimonial_card d-flex gap-lg-5 gap-md-3 gap-sm-5 gap-2 align-items-center flex-md-row flex-sm-row flex-column text-md-start text-sm-start text-center">
+                            <figure><img src="assets/Images/slider/testimonial2.png" alt="testimonial"></figure>
+                            <div>
+                                <p>0bug, as their name suggests. Our partnership with 0bug has elevated our web presence, ensuring a seamless experience for our customers. Their bug-free solutions have boosted our confidence and set us on a path to success.Thanks 0bug team.</p>
+                                <hr>
+                                <h4>Phillip boyd</h4>
+                            </div>
+                        </div>
+                    </div><!--
+                    <div class="d-flex justify-content-between align-items-center gap-lg-5 gap-md-4 gap-sm-5 gap-4 mt-5 flex-md-row flex-sm-column flex-column">
+                        <div class="testimonial_card d-flex gap-lg-5 gap-md-3 gap-sm-5 gap-2 align-items-center flex-md-row flex-sm-row flex-column text-md-start text-sm-start text-center">
+                            <figure><img src="assets/Images/slider/testimonial1.png" alt="testimonial"></figure>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <hr>
+                                <h4>Jacob scott</h4>
+                            </div>
+                        </div>
+                        <div class="testimonial_card d-flex gap-lg-5 gap-md-3 gap-sm-5 gap-2 align-items-center flex-md-row flex-sm-row flex-column text-md-start text-sm-start text-center">
+                            <figure><img src="assets/Images/slider/testimonial3.png" alt="testimonial"></figure>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <hr>
+                                <h4>Phillip boyd</h4>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+           </br>
+          </br>
+        </section>
+        <!-- ======== End of 1.11. Testimonials section ======== -->
+
+        <!-- ======== 1.13. Footer section ======== -->
+        <footer>
+            <figure><img src="assets/Images/bg/footer_bg.png" alt="img" class="footer-cercle2"></figure>
+            <div class="container position-relative ab-footer">
+                <div class="text-center d-flex flex-column gap-2">
+                    <h5 class="mt-lg-1 mt-md-4 mt-sm-4 mt-5">Get in touch</h5>
+                    <h2>Subscribe our newsletter</h2>
+                    <p class="footer-para">Stay informed about the latest updates and don't miss out on our exclusive special offers that bring cutting-edge solutions within reach.</p>
+                    <form class="d-flex justify-content-center gap-4 mt-4" id="footer-form">
+                        <div id="footer-message"> </div>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="row text-md-start text-sm-center text-center">
+                    <div class="col-lg-5 col-md-5">
+                        <a href="index.html" class="p-0">
+                            <figure><img src="assets/Images/logo.png" alt="logo"></figure>
+                        </a>
+                        <p class="pb-3 pe-md-5 pe-sm-0 pe-0">We're your dedicated protectors against digital threats. Our expert team shields your assets with cutting-edge technology and robust cybersecurity solutions.
+
+                        </p>
+                        <!-- social icons -->
+                        <span class="d-flex gap-3 flex-wrap justify-content-md-start justify-content-sm-center justify-content-center">
+                            <a href="https://twitter.com/0bugltd"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/0bugltd"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="Contact.html#"><i class="fa-brands fa-pinterest-p"></i></a>
+                            <a href="https://www.facebook.com/0buginc"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="Contact.html#"><i class="fa-brands fa-instagram"></i></a>
+                       </span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 position-relative mt-md-0 mt-sm-4 mt-4">
+                        <h4>Useful links</h4>
+                        <div class="d-flex gap-md-5 gap-sm-5 gap-5 mt-4 justify-content-md-start justify-content-sm-center justify-content-center">
+                            <div class="d-flex flex-column gap-4">
+                                <a href="index.html" class="p-0">Home</a>
+                                <a href="About.html" class="p-0">About</a>
+                                <a href="Service.html" class="p-0">Services</a>
+                            </div>
+                            <div class="d-flex flex-column gap-4">
+                                <a href="Contact.html" class="p-0">Contact</a>
+                                <a href="https://blog.0bug.io" class="p-0">Blog</a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-4 col-md-4 ps-4 mt-md-0 mt-sm-4 mt-4 d-flex flex-column align-items-md-start align-items-sm-center align-items-start">
+                        <h4>Our Office</h4>
+                        <div class="d-flex align-items-center gap-4 mt-4">
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                            <p class="p-0">Aman Tower, Abutroab, Mirshari, Chittagong</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-4 mt-4">
+                            <i class="fa-sharp fa-solid fa-phone"></i>
+                            <p class="p-0">+8809697294214</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-4 mt-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="p-0">contact@0bug.io</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-5">
+                <!-- copyright text -->
+                <div class="d-flex justify-content-md-between justify-content-sm-center justify-content-center flex-wrap  text-center mb-3 gap-3">
+                    <h6>Copyright © 2023 cyber safe evonicmedia. all rights reserved.</h6>
+                </div>
+                <figure><img src="assets/Images/bg/about_cercle1.png" alt="img" class="footer-cercle1"></figure>
+            </div>
+        </footer>
+        <!-- ======== End of 1.13. Footer section ======== -->
+    </div>
+    <!-- end site wrapper -->
+
+    <!-- button back to top -->
+    <button onclick="scrollToTop()" id="backToTopBtn" class="btn_hover2"><i class="fa-solid fa-arrow-turn-up"></i></button>
+
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- counter -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Framework javascript -->
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- style javascript -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
