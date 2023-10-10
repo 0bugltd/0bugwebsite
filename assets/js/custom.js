@@ -169,4 +169,17 @@ jQuery(document)
            }
        });
    });
+
+// Function to update the offer banner text and style
+function updateOfferBanner() {
+    const banner = document.getElementById('offer-banner');
+    if (banner) {
+        banner.textContent = "October Special Offer: Get 5% Off on All Cybersecurity Services!";
+        banner.style.backgroundColor = '#ff9900'; // Change to a different color
+    }
+}
+
+// Call the function to update the offer banner
+updateOfferBanner();
+
 // ============= Read more end ============= //
