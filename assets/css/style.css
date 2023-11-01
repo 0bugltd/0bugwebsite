@@ -2150,11 +2150,12 @@ textarea:focus {
 
 
 /* Offer Banner CSS */
+/*
 .offer-banner {
-    background-color: #ff69b4; /* Pink color or your preferred color */
-    color: #fff; /* Text color */
+   / background-color: #ff69b4; / Pink color or your preferred color 
+    color: #fff; /* Text color 
     padding: 10px;
     text-align: center;
 }
-
+*/
 /* ====== End of 9.1. hero section ====== */
