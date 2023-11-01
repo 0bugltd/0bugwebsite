@@ -171,6 +171,7 @@ jQuery(document)
    });
 
 // Function to update the offer banner text and style
+/*
 function updateOfferBanner() {
     const banner = document.getElementById('offer-banner');
     if (banner) {
@@ -178,8 +179,8 @@ function updateOfferBanner() {
         banner.style.backgroundColor = '#ff9900'; // Change to a different color
     }
 }
-
+*/
 // Call the function to update the offer banner
 updateOfferBanner();
 
-// ============= Read more end ============= //
+// =============  End ============= //
